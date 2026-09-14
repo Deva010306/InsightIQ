@@ -1,0 +1,135 @@
+# =============================================
+# InsightIQ — .gitignore
+# =============================================
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+instance/
+
+# --- Virtual environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.uv/
+__pypackages__/
+
+# --- uv ---
+uv.lock
+
+# --- Type checking ---
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pytype/
+.pyre/
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+.npm
+.eslintcache
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Secrets & Environment ---
+.env
+.env.*
+!.env.example
+!.env.docker
+*.pem
+*.key
+secrets/
+
+# --- Docker ---
+infrastructure/docker/data/
+infrastructure/docker/.env
+
+# --- Logs ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Database migrations (keep the folder, ignore auto-generated) ---
+# migrations/versions/*.py — keep tracked, do not ignore
+
+# --- ML / Data ---
+*.h5
+*.pkl
+*.joblib
+*.parquet
+*.csv.gz
+data/
+models/
+mlruns/
+mlflow.db
+
+# --- Jupyter ---
+.ipynb_checkpoints
+*.ipynb
+
+# --- OS ---
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# --- Terraform ---
+infrastructure/terraform/**/.terraform/
+infrastructure/terraform/**/*.tfstate
+infrastructure/terraform/**/*.tfstate.*
+infrastructure/terraform/**/.terraform.lock.hcl
+infrastructure/terraform/**/crash.log
