@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # InsightIQ — AI-Powered Business Intelligence Platform
 
 > An AI Business Advisor that explains business performance, predicts what comes next, simulates strategic options, and recommends evidence-backed actions.
@@ -98,3 +99,7 @@ uv run uvicorn src.main:app --reload --port 8001
 - [SAD Architecture Blueprint](docs/sad-architecture-blueprint.md)
 - [Competitive Analysis](docs/competitive-analysis-novelty.md)
 - [Backend Architecture Design](docs/insightiq_backend_architecture.md)
+=======
+# InsightIQ
+> An AI Business Advisor that explains business performance, predicts what comes next, simulates strategic options, and recommends evidence-backed actions.
+>>>>>>> c6d3906c03836c3cc7c342e151ecaa50bed4df46
